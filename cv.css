@@ -1,0 +1,57 @@
+body {
+		 font-family: arial;
+		 background-color: lightblue;}
+h1 {
+	word-spacing: 10px;
+	font-family: georgia;
+	text-align: center;
+	color: red;
+	border-style: solid;
+	border-color: blue;
+  	border-width: 1px;
+  	border-spacing: 20px;
+  	border-radius: 25px;
+  	padding: 20px;
+	}
+h2	{text-align: center;
+	color: tomato;
+	}
+h3 {color: tomato;
+	border-color: white;
+  	border-width: 1px;
+	}
+
+img {
+  display: block;
+    }
+
+table {
+ 		border-collapse: collapse;
+ 		width: 70%;
+ 		height: 50px;
+		margin: auto;
+  		
+		}
+footer {
+	word-spacing: 10px;
+	text-align: center;
+	padding: 20px;
+	color: grey;
+}
+
+ol {
+  background: #ff9999;
+  padding: 20px;
+}
+
+ul {
+  background: deepskyblue;
+  padding: 10px;
+}
+
+li {
+  background: #e0ffff;
+  padding: 10px;
+  margin-left: 35px;
+}
+
