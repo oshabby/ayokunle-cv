@@ -1,22 +1,24 @@
 body {
-		 font-family: arial;
-		 background-color: lightblue;}
+		font-family: georgia;
+		background-color: #6d6e6a;
+		color: white;}
 h1 {
 	word-spacing: 10px;
 	font-family: georgia;
 	text-align: center;
-	color: red;
+	font-size: 50px;
+	/*color: red;
 	border-style: solid;
 	border-color: blue;
   	border-width: 1px;
   	border-spacing: 20px;
-  	border-radius: 25px;
+  	border-radius: 25px;*/
   	padding: 20px;
 	}
 h2	{text-align: center;
-	color: tomato;
+	/*color: tomato;*/
 	}
-h3 {color: tomato;
+h3 {/*color: tomato;*/
 	border-color: white;
   	border-width: 1px;
 	}
@@ -27,7 +29,7 @@ img {
 
 table {
  		border-collapse: collapse;
- 		width: 70%;
+ 		width: 80%;
  		height: 50px;
 		margin: auto;
   		
@@ -42,16 +44,28 @@ footer {
 ol {
   background: #ff9999;
   padding: 20px;
+  color: black;
 }
 
 ul {
-  background: deepskyblue;
+  background: lightgrey;
   padding: 10px;
+  color: black;
 }
 
 li {
-  background: #e0ffff;
+  background: #ffffff;
   padding: 10px;
   margin-left: 35px;
+  color: black;
 }
-
+form {
+	font-family: arial;
+	background-color: #6d6e6a;
+	color: white;
+	border-style: solid;
+	border-color: white;
+  	border-width: 3px;
+  	border-spacing: 20px;
+  	padding: 20px;
+}

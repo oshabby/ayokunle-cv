@@ -3,14 +3,33 @@
 	<head>
 		<title>Ayokunle's Curriculum Vitae</title>
 		<link href="/home/ayokunle/Documents/Ayokunle-StartNG/ayokunle-cv/cv.css" type="text/css"
-			 rel="stylesheet" />
+			 rel="stylesheet" /> 
+		<script type="text/javascript">
+			function validateForm() 
+			{
+	  			var x = document.forms["my_Form"]["full_name"].value;
+	  			if (x.length < 4) 
+	  			{
+	    		alert("Number of characters for Name must be more than 4 (four)");
+	    		return false;
+    			}   		    			
+    			var y = document.forms["my_Form"]["message_body"].value;
+    			if (y.length < 20) 
+    			{
+    				alert("Please enter more than 20 characters in the message field. Thanks.");
+	    			return false;
+    			}
+
+    		}
+		</script>
 	</head>
 	<body>
+		<header></header>
 		<table>
 			<tr">
 				<td><h1>SABA, AYOKUNLE ADEDEJI</h1>
 					<h2>Curriculum Vitae</h2>
-					<strong>Objective: </strong>To work in a dynamic environment where I can use my present skills to enhance the growth and progress of the organisation and acquire new skills while aligning myself to the core values of the organisation.
+					<p align="center"><strong>Objective: </strong>To work in a dynamic environment where I can use my present skills to enhance the growth and progress of the organisation and acquire new skills while aligning myself to the core values of the organisation.</p>
 					<h3>EDUCATION</h3>
 					<li>Master of Science - M.Sc., Information Technology (2019)</li>
 					<li>Post-Graduate Diploma, Electrical Engineering (2015)</li>
@@ -44,7 +63,7 @@
 					<li>Member, Nigerian Society of Engineers</li>
 					<li>Member, Nigerian Institute of Electrical and Electronic Engineers</li>
 				</td>				
-				<td align="right">
+				<td align="center">
 					<img src="https://res.cloudinary.com/oshabby/image/upload/v1566605919/DSC_0203edited_o17c4r.png" alt="Ayokunle Saba" width="200" height="200">
 					<h3>Contact Details</h3>
 					<ul><strong>Address:</strong> No. 28, Ibrahim Alfa Rd, High Cost, Narayi, Kaduna</ul>
@@ -59,13 +78,25 @@
 					<ul>Solar Energy</ul>
 					<ul>Sustainable Mobility</ul>
 					<ul>Oil and Gas</ul>
-					<ul>Energy Transition</ul>
+					<ul>Energy Transition</ul>			
+					<h3>CONTACT FORM</h3>	
+					<form name="my_Form"  onsubmit="return validateForm()" method="post" align="left">
+						Full name:<br><input type="text" name="full_name" required><br>
+						Email Address:<br><input type="text" name="email_address" required><br>
+						Title:<br><input type="text" name="message_title" required><br>
+						Message:<br><input type="text" name="message_body" required><br>
+						<input type="SUBMIT" name="Submit">
+					</form>						
 				</td>
 			</tr>
 			<tr>
-				
+				<td>
+					
+				</td>				
 			</tr>
 		</table>
+		
+									
 		<footer>Copyright 2019</footer>
 	</body>
 </html>
