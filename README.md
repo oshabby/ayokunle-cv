@@ -1,4 +1,6 @@
 # ayokunle-cv
+I have now changed the name of the CV html file to index.html in order for it to be launched by github pages.
+
 The html file ayokunle.html in this branch is the one made with HTML and CSS.
 I have used CSS in this version of my CV. Yippee!!! I was able to use git bash to push.
 I hope you like the way my CV now appears, thanks to CSS. (That is ignoring the colour combo which will get better in due time)
