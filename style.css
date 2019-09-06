@@ -1,24 +1,149 @@
+/* *{
+	margin: 0;
+	padding: 0;
+}
+*/
 body {
-		font-family: georgia;
-		background-color: #6d6e6a;
-		color: white;}
-h1 {
+		background-color: #f4f4f4;
+		color: #555555;
+		font-family: arial, sans-serif;
+		font-size: 16px /*16px is the default size for html5*/
+		font-weight: normal;
+		line-height: 1.6em; /*em is a measuring unit for line height. Pixels can also work*/
+		margin: 0;
+		/*font: normal 16px arial, helvetica, sans-serif;*/
+	}
+
+.clr{
+	clear: both;
+}
+
+h3{
+	text-decoration: underline;
+}
+
+.container{
+	width: 80%; /*960px is the popular width for most websites*/
+	margin: auto;
+}
+
+.contact{
+	text-align: right;
+	float:left;
+	width: 40%;
+	
+	padding-top: 70px;
+	padding-bottom: 80px;
+	box-sizing: border-box;
+	
+}
+.name {
+	float:left;
+	font-size: 25px;
+	width: 40%;
+	/*border:1px solid blue;*/
+	color: tomato;
+	padding-top: ;
+	line-height: 1.0;
+	padding-bottom: ;
+	box-sizing: border-box;
+	text-align: left;
+	
+	}	
+.photo {
+	float:right;
+	width: 20%;
+	padding:10px;
+	text-align: right;
+	box-sizing: border-box;
+}	
+
+
+.obj{
+	/*background-color: #333;
+	color: #fff;
+	border-right: 5px red solid;
+	padding: 20px;*/
+	margin-top: 20px;
+}
+
+.edu{
+	background-color: #333;
+	color: #fff;
+	border-right: 5px red solid;
+	padding: 20px;
+}
+
+
+.inst{
+	background-color: #33333a;
+	color: #fff;
+	border-left: 5px red solid;
+	padding: 20px;
+}
+
+.cert_prog{
+	background-color: #333;
+	color: #fff;
+	border-right: 5px red solid;
+	padding: 20px;
+}
+.skills{
+	background-color: #33333a;
+	color: #fff;
+	border-left: 5px red solid;
+	padding: 20px;
+}
+.prof_mem{
+	background-color: #333;
+	color: #fff;
+	border-right: 5px red solid;
+	padding: 20px;
+}
+.prof_dev{
+	background-color: #33333a;
+	color: #fff;
+	border-left: 5px red solid;
+	padding: 20px;
+}
+.contact_form{
+	background-color: ;
+	color: #000;
+	border-right: 5px red solid;
+	border-left: 5px red solid;
+	padding: 30px;
+}
+
+.contact_form .forms{
+	padding-bottom: 15px;
+}
+
+.forms label{
+	display: block;
+}
+
+.forms input{
+	padding: 8px;
+	width: 100%
+}
+
+/*h1 {
 	word-spacing: 10px;
 	font-family: georgia;
 	text-align: center;
 	font-size: 50px;
-	/*color: red;
+	color: red;
 	border-style: solid;
 	border-color: blue;
   	border-width: 1px;
   	border-spacing: 20px;
-  	border-radius: 25px;*/
+  	border-radius: 25px;
   	padding: 20px;
 	}
 h2	{text-align: center;
-	/*color: tomato;*/
+	color: tomato;
 	}
-h3 {/*color: tomato;*/
+h3 {color: tomato;
 	border-color: white;
   	border-width: 1px;
 	}
